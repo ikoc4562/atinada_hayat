@@ -1,0 +1,88 @@
+dl, dt, dd, ol, ul, li {
+	margin : 0;
+	padding : 0;
+	border : 0;
+	font-size : 12%;
+	font : inherit;
+	vertical-align : baseline;
+}
+#primary {
+margin : 0 270px 0 0;
+position : relative;
+}
+.bx-wrapper {
+position : relative;
+margin : 0 auto 60px;
+padding : 0;
+}
+.bx-wrapper img {
+max-width : 100%;
+display : block;
+}
+.bx-wrapper .bx-viewport {
+box-shadow : 0 0 5px #ccc;
+background : #000;
+transform : translatez(0);
+
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+position:relative;
+bottom : -30px;
+margin-top:-40px;
+margin-right:-9px;
+width : 20%;
+float:right;
+z-index:1231231;
+}
+.bx-wrapper .bx-pager {
+text-align : center;
+font-size : 0.85em;
+font-family : Arial;
+font-weight : bold;
+color : #666;
+padding-top : 20px;
+ 
+ 
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+ margin-top:-45px;
+
+background : #ebebeb;
+text-indent : -9999px;
+display : block;
+width : 10px;
+height : 10px;
+float:left;
+outline : 0;
+border-radius : 10px;
+z-index : 1;
+}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item{
+display:inline-block;
+padding:10px 0px 10px 10px;
+}
+.bx-wrapper {
+background-image : url(../images/slider_icerik.png);
+
+}
+.bx-wrapper .bx-caption {
+position : absolute;
+bottom : 0;
+left : 507px;
+background-image : url(../images/slider_icerik.png);
+height : 284px;
+background-repeat : no-repeat;
+width : 100%;
+}
+.bx-wrapper .bx-caption span {
+color : #fff;
+font-family : Arial;
+display : block;
+font-size : 0.85em;
+padding : 50px 75px 75px 150px;
+}
+.bx-wrapper .bx-caption span p {
+color : #feffff;
+font-size : 18px;
+z-index : 1;
+} 

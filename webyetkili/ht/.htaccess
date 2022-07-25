@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "SIFRELI ALAN"
+AuthUserfile "../htdocs/webyetkili/.htpasswd"
+Require valid-user

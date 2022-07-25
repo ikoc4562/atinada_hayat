@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^huone-(.*)-(.*).html rooms-single.php?&id=$1 [L,NC]
+RewriteRule ^omatiedot.* about.php [NC]
+RewriteRule ^etusivu.* index.php [NC]
+RewriteRule ^yhteytta.* contact.php [NC]  
+RewriteRule ^huoneita.* rooms.php [NC]
+
+
+
+
+
+
